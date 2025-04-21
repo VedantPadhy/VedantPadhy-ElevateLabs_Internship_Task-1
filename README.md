@@ -7,7 +7,7 @@ Filled missing values in the Date_Added column with a default date (2023-01-01) 
 
 Standardized country names, including handling multiple countries in a single row, by splitting entries, mapping them to short codes (e.g., 'India' → 'IN'), and rejoining them.
 
-Removed duplicate rows using .drop_duplicates() to maintain data integrity.
+Removed duplicate rows using .drop_duplicates() to maintain data integrity but the code is present as there is no duplicate values in the dataset but i have still mentioned the code in the source file.
 
 Dropped unnecessary columns like country_cleaned and country_code after standardization.
 
